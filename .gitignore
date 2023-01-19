@@ -1,0 +1,30 @@
+.env
+
+# Dependencies and build artifacts
+node_modules
+dist/*
+infra/helm/proact/charts/
+
+# OS metadata
+.DS_Store
+
+# Editors
+.idea/*
+.project
+.vscode/*
+.vs/*
+.idea/runConfigurations/*
+!.idea/runConfigurations/Pronode_SU.xml
+.#*
+*.orig
+*.swp
+
+# Logs and test/code coverage results
+*.log
+logs
+report.*
+npm-debug.log.*
+coverage/**/*
+junit.xml
+.devspace/
+*.~undo-tree~

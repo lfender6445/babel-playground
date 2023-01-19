@@ -1,0 +1,9 @@
+{
+  "sourceType": "unambiguous",
+  "presets": [
+    "airbnb",
+    "@babel/preset-react",
+    "@babel/preset-typescript",
+    "@babel/preset-env"
+  ]
+}
